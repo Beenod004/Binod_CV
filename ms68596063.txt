@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "binodbasnet004.com.np",
+  "Id": "40521423-93af-484d-ab7a-be6e6317369a"
+}
