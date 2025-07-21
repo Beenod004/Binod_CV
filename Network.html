@@ -1,1 +1,31 @@
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBMWrMbHLY6zrCwJ8U741LfjCF9q1ZzGVL_b8NWDlRORPkUQJoQMh1n1Tq-DJUZGwLUn2k6EbIJ7Y-/pubhtml?gid=1442898686&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Full Screen Google Sheet</title>
+<style>
+    /* Remove default body margin and padding to ensure the iframe truly fills the screen */
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%; /* Make html and body fill the viewport height */
+        overflow: hidden; /* Prevent scrollbars if not needed */
+    }
+
+    /* Style for the iframe to make it full screen */
+    iframe {
+        position: fixed; /* Position relative to the viewport */
+        top: 0;          /* Align to the top edge */
+        left: 0;         /* Align to the left edge */
+        width: 100%;     /* Fill 100% of the width */
+        height: 100%;    /* Fill 100% of the height */
+        border: none;    /* Remove the default iframe border */
+        z-index: 9999;   /* Ensure it's on top of other content if any */
+    }
+</style>
+</head>
+<body>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBMWrMbHLY6zrCwJ8U741LfjCF9q1ZzGVL_b8NWDlRORPkUQJoQMh1n1Tq-DJUZGwLUn2k6EbIJ7Y-/pubhtml?gid=1442898686&single=true&widget=true&headers=false"></iframe>
+
+</body>
+</html>
